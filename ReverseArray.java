@@ -1,0 +1,41 @@
+/*
+
+STEPS:
+1) Take the array, reverse it by printing from last index to first index
+for(int i=N-1; i>=0; i--)
+
+https://practice.geeksforgeeks.org/problems/reverse-an-array/0
+*/
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class GFG {
+	public static void main (String[] args) {
+		//code
+		int T;
+		int N;
+
+		Scanner sc = new Scanner(System.in);
+		T = sc.nextInt();
+
+		while(T!=0) {
+
+		    N = sc.nextInt();
+    		int[] A = new int[N];
+    		for(int i=0; i<N; i++) {
+    		    A[i] = sc.nextInt();
+    		}
+
+    		for(int i=N-1; i>=0; i--) {
+    		    System.out.print(A[i] + " ");
+    		}
+
+		    T--;
+		    System.out.println();
+		}
+	}
+}
