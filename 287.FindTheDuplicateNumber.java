@@ -2,12 +2,14 @@
 
 **Approach 1:(TIME LIMIT EXCEEDED)
 STEPS:**
-1) Take a new Arraylist, while copying the array elements into ArrayList check if the element already exists, if it already exists in Arraylist return it, else add the new element to the ArrayList.
+1) Take a new Arraylist, while copying the array elements into ArrayList check if the element already exists, if it already 
+exists in Arraylist return it, else add the new element to the ArrayList.
 
 **Approach 2:
 STEPS:**
 1) Sort the Array.
-2) Loop throught he array from 0 to n-2, check if nums[i]==nums[i+1] i.e if there are any adjacent equivalent elements nums[i] should be returned else return 0.
+2) Loop throught he array from 0 to n-2, check if nums[i]==nums[i+1] i.e if there are any adjacent equivalent elements nums[i]
+should be returned else return 0.
  */
 
 
